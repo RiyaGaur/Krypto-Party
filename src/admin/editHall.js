@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "./navbar";
 import './css/editHall.css';
 import { IoIosArrowBack } from 'react-icons/io';
