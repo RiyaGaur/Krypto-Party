@@ -10,7 +10,6 @@ describe('<Login />', () => {
 
     const addHallButton = screen.getByTestId('addHallButton');
     const adminDashboard = screen.getByTestId('adminDashboard');
-    <h1>Is it working?</h1>
     expect(addHallButton).toBeTruthy();
     expect(adminDashboard).toBeTruthy();
   });
