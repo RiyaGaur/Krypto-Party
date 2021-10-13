@@ -1,15 +1,9 @@
 import './App.css';
-import Login from './admin/login';
-import Signup from './admin/signup';
-import Dashboard from './admin/dashboard';
 function App() {
   return (
     <div className="App">
       <h1>Testing</h1>
       <h3>Is is working</h3>
-      <Login />
-      <Signup />
-      <Dashboard />
     </div>
   );
 }
