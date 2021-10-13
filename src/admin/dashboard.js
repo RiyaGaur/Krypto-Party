@@ -1,7 +1,7 @@
 import React from 'react';
-import { useScreenClass } from 'react-grid-system';
+// import { useScreenClass } from 'react-grid-system';
 import { Row, Col } from 'react-grid-system';
-// import Navbar from '../Navbar/Navbar';
+import Navbar from './navbar';
 import './css/dashboard.css';
 import { BiEdit } from "react-icons/bi";
 import { AiFillDelete } from 'react-icons/ai';
@@ -10,7 +10,7 @@ export default function dashboard() {
     // const screenClass = useScreenClass();
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
 
             <Row>
                 <Col sm={8} className='details'>
